@@ -1,12 +1,12 @@
 def join_nested_strings(src)
-  # Combine all Strings present in the AoA into a single value and return it
+  
 counter = 0 
 new_array = []
 
 while counter < src.length do 
 inner_counter = 0
 
-while inner_counter < src[counter].length do 
+  while inner_counter < src[counter].length do 
 
 if src[counter].include("")
  new_array << src[counter][inner_counter] 
