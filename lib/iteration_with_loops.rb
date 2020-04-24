@@ -8,10 +8,10 @@ inner_counter = 0
 
   while inner_counter < src[counter].length do 
 
-#if src[counter].include?("")
+if src[counter].include?(Integer)
  new_array << src[counter][inner_counter] 
 pp new_array
-#end
+end
      
   inner_counter += 1
 end
