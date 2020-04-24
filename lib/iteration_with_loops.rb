@@ -8,7 +8,7 @@ inner_counter = 0
 
   while inner_counter < src[counter].length do 
 
-if src[counter][inner_counter] == 
+if src[counter][inner_counter]? String
  new_array << src[counter][inner_counter] 
 pp new_array
 end
