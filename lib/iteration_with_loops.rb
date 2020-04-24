@@ -8,7 +8,7 @@ inner_counter = 0
 
   while inner_counter < src[counter].length do 
 
-if src[counter].include("")
+if src[counter].includes?(String)
  new_array << src[counter][inner_counter] 
 pp new_array
 end
