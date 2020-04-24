@@ -8,10 +8,10 @@ inner_counter = 0
 
   while inner_counter < src[counter].length do 
 
-src[counter][inner_counter]? String  :
+if src[counter][inner_counter].class == String
  new_array << src[counter][inner_counter] 
 pp new_array
-
+end
      
   inner_counter += 1
 end
