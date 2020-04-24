@@ -11,7 +11,7 @@ inner_counter = 0
 src[counter][inner_counter]? String  :
  new_array << src[counter][inner_counter] 
 pp new_array
-end
+
      
   inner_counter += 1
 end
